@@ -10,6 +10,7 @@ require 'zlib'
 require 'better_tempfile'
 require 'mime/types'
 require 'terminal-table'
+require 'net-ftp'
 
 module AmazonStaticSite
   class Error < StandardError; end
@@ -20,6 +21,7 @@ require_relative './amazon_static_site/server.rb'
 require_relative './amazon_static_site/generator.rb'
 require_relative './amazon_static_site/client/base.rb'
 require_relative './amazon_static_site/client/s3.rb'
+require_relative './amazon_static_site/client/ftp.rb'
 require_relative './amazon_static_site/client/upload.rb'
 require_relative './amazon_static_site/client/cloudflare.rb'
 require_relative './amazon_static_site/config.rb'

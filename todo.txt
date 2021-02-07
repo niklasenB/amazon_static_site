@@ -1,0 +1,10 @@
+- dynamically create the config.yml file using env values for the Keys
+The config file is currently maintained as one sample, the Keys and Secrets should be coming from the Heroku env variables and the page name should
+be taken from the directory name the file was created in
+
+- download individual public directory via ftp
+The content of the public folder for the individual pages are generated in another application,
+on generating a page the public folder content should be fetched via FTP before publishing it
+
+- send website configuration via email on success
+The configuration which is being returned after creating a page sucessfully should be send as email

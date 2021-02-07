@@ -2,9 +2,9 @@ domain:
   primary: "www.site.com"
   secondary: "site.com"
 s3:
-  region: us-west-1
+  region: eu-central-1
   access_key_id: "KEY"
   secret_access_key: "SECRET"
 cloudflare:
-  email: email@site.org
+  email: niklas.wohlgemuth@netnauten.de
   api_key: "API"
